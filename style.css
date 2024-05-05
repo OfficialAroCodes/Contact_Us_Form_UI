@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+    height: 100vh;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: "Inter", sans-serif;
+    background-color: #e4e4e4;
+    display: grid;
+    place-items: center;
+}
+
+form {
+    background-color: #fefefe;
+    box-shadow: 0 0 15px #0000003a;
+    padding: 25px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.FormInputsRow {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.InputContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+input {
+    width: 100%;
+    font-family: "Inter";
+    font-size: 105%;
+    border: 2px #e2e2e2 solid;
+    color: #000;
+    border-radius: 12px;
+    outline: none;
+    background: none;
+    padding: 8px 10px;
+    transition: 0.2s;
+}
+
+input:hover, input:focus {
+    border: 2px #d0d0d0 solid;
+}
+
+textarea {
+    resize: none;
+    font-family: "Inter";
+    font-size: 105%;
+    width: 100%;
+    height: 250px;
+    border: 2px #e2e2e2 solid;
+    color: #000;
+    border-radius: 12px;
+    outline: none;
+    background: none;
+    padding: 8px 10px;
+    transition: 0.2s;
+}
+
+.SubmitBTN {
+    font-family: "Inter";
+    font-size: 110%;
+    font-weight: 500;
+    width: 100%;
+    padding: 14px;
+    border: none;
+    outline: none;
+    background-color: #141414;
+    color: #efefef;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.SubmitBTN:hover {
+    background-color: #242424;
+}
